@@ -1,4 +1,7 @@
-# PF008
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+PF008
 
 Objetivos:
 Desenvolver um bot para desempenhar as seguintes funções:
@@ -8,4 +11,15 @@ Desenvolver um bot para desempenhar as seguintes funções:
 - Monitorar os serviços e ter noção de como o seu dinheiro está sendo administrado.
 - Disponibilizar as informações por meio de mensagens a um grupo de telegram ou whatsapp.
 
-Projeto proposto por um dos estudantes da disciplina no primeiro semestre de 2021.
+"""
+
+
+import pandas_datareader.data as web 
+all_data = {ticker: web.get_data_yahoo(ticker) for ticker in ['AAPL', 'IBM', 'MSFT', 'GOOG']} 
+price = pd.DataFrame({ticker : data['Adj Close'] for ticker, data in all_data.items()}) 
+volume = pd.DataFrame({ticker: data['Volume'] for ticker, data in all_data.items()}) 
+returns = price.pct_change()
+print(returns.corr())
+print(returns.cov())
+print(returns['MSFT'].corr(returns['IBM']))
+print(returns.corrwith(returns.IBM))
