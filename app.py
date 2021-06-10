@@ -16,23 +16,17 @@ Desenvolver um bot para desempenhar as seguintes funções:
 import ast
 import pandas as pd
 import pandas_datareader.data as web 
+import yfinance as yf
 
 clientes = pd.read_excel('programação.xlsx')
-# listaAcoes = clientes['ação'].loc[0]
 listaAcoes = []
 acoes = clientes['ação']
 [listaAcoes.append(ast.literal_eval(i)) for i in acoes]
 
 all_data =[]
 for atual in listaAcoes:
-    [print(i) for i in atual]
-    # all_data.append({ticker: web.get_data_yahoo(ticker) for ticker in atual})
-print(all_data)
-# price = pd.DataFrame({ticker : data['Adj Close'] for ticker, data in all_data.items()}) 
-# volume = pd.DataFrame({ticker: data['Volume'] for ticker, data in all_data.items()}) 
-# returns = price.pct_change()
-
-# print(returns.corr())
-# print(returns.cov())
-# print(returns['MSFT'].corr(returns['IBM']))
-# print(returns.corrwith(returns.IBM))
+    all_data.append({ticker: yf.Ticker(ticker) for ticker in atual})
+      
+arquivo = open('texto.txt','a')
+arquivo.write('\n\t'+'As informações sobre as ações')
+arquivo.close()
