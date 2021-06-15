@@ -28,5 +28,10 @@ for atual in listaAcoes:
     all_data.append({ticker: yf.Ticker(ticker) for ticker in atual})
       
 arquivo = open('texto.txt','a')
+for cliente in all_data:
+    arquivo.write('\n\t'+'Cliente novo')
+    for empresa in cliente:
+        arquivo.write('\n\t'+'Empresa nova: ' + empresa)
+
 arquivo.write('\n\t'+'As informações sobre as ações')
 arquivo.close()
