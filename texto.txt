@@ -9,56 +9,56 @@
 	Empresa nova: GOLL
 	Empresa nova: CVCB
 	Cliente novo
-	Empresa nova: LWSA3
-	Empresa nova: QUAL3
-	Empresa nova: SUZB3
+	Empresa nova: LWSA
+	Empresa nova: QUAL
+	Empresa nova: SUZB
 	Cliente novo
-	Empresa nova: EMBR3
-	Empresa nova: BRFS3
-	Empresa nova: ELET6
+	Empresa nova: EMBR
+	Empresa nova: BRFS
+	Empresa nova: ELET
 	Cliente novo
-	Empresa nova: RADL3
-	Empresa nova: GOLL4
-	Empresa nova: VALE3
+	Empresa nova: RADL
+	Empresa nova: GOLL
+	Empresa nova: VALE
 	Cliente novo
-	Empresa nova: BPAC11
-	Empresa nova: LWSA3
-	Empresa nova: QUAL3
+	Empresa nova: BPAC
+	Empresa nova: LWSA
+	Empresa nova: QUAL
 	Cliente novo
-	Empresa nova: JBSS3
-	Empresa nova: UGPA3
-	Empresa nova: BRKM6
+	Empresa nova: JBSS
+	Empresa nova: UGPA
+	Empresa nova: BRKM
 	Cliente novo
-	Empresa nova: CVCB3
-	Empresa nova: QUAL3
-	Empresa nova: LREN3
+	Empresa nova: CVCB
+	Empresa nova: QUAL
+	Empresa nova: LREN
 	Cliente novo
-	Empresa nova: ITUB4
-	Empresa nova: BBDC3
-	Empresa nova: BBDC4
+	Empresa nova: ITUB
+	Empresa nova: BBDC
+	Empresa nova: BBDC
 	Cliente novo
-	Empresa nova: GGBR4
-	Empresa nova: HGTX3
-	Empresa nova: TAEE11
+	Empresa nova: GGBR
+	Empresa nova: HGTX
+	Empresa nova: TAEE
 	Cliente novo
-	Empresa nova: BBAS3
-	Empresa nova: QUAL3
-	Empresa nova: RADL3
+	Empresa nova: BBAS
+	Empresa nova: QUAL
+	Empresa nova: RADL
 	Cliente novo
-	Empresa nova: ASAI3
-	Empresa nova: USIM5
-	Empresa nova: IGTA3
+	Empresa nova: ASAI
+	Empresa nova: USIM
+	Empresa nova: IGTA
 	Cliente novo
-	Empresa nova: TOTS3
-	Empresa nova: SUZB3
-	Empresa nova: BIDI11
+	Empresa nova: TOTS
+	Empresa nova: SUZB
+	Empresa nova: BIDI
 	Cliente novo
-	Empresa nova: VIVT3
-	Empresa nova: MRV3
-	Empresa nova: CSNA3
+	Empresa nova: VIVT
+	Empresa nova: MRV
+	Empresa nova: CSNA
 	Cliente novo
-	Empresa nova: BRAP4
-	Empresa nova: BPAC11
-	Empresa nova: GNDI3
+	Empresa nova: BRAP
+	Empresa nova: BPAC1
+	Empresa nova: GNDI
 	As informações sobre as ações
 	Cliente novo
